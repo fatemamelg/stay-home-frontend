@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+Footer {
+  text-align: left;
+}
+
+Footer div {
+  margin-left: 10px;
+}
+
