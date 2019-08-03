@@ -42,7 +42,7 @@ class Header extends Component {
                         <Nav className="ml-auto ">
                             <Nav.Link><Link to="/" className="nav-link">Home</Link></Nav.Link>
                             <Nav.Link><Link to="/" className="nav-link">Services</Link></Nav.Link>
-                            <Nav.Link><Link to="/" className="nav-link">Listing</Link></Nav.Link>
+                            <Nav.Link><Link to="properties" className="nav-link">Listing</Link></Nav.Link>
                             <Nav.Link><Link to="/" className="nav-link">How it works</Link></Nav.Link>
                         </Nav>
 

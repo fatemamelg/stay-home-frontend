@@ -9,18 +9,20 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import SignIn from './components/SignIn'
 import SignUp from './components/SignUp'
-import Element from './components/Element'
+import Properties from './components/Properties'
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/signin" component={SignIn} />
-            <Route path="/signup" component={SignUp} />
-          </Switch>
+        
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/signin" component={SignIn} />
+          <Route path="/signup" component={SignUp} />
+          <Route path="/properties" component={Properties} />
+        </Switch>
 
         <Footer />
       </div>

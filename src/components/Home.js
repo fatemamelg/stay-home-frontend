@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Element from './Element'
+import { FaBeer } from 'react-icons/fa';
 
 class Home extends Component {
     render() {
@@ -37,8 +38,7 @@ class Home extends Component {
                     <div class="row">
                         <div class="col-md">
                             <div class="">
-                                <div class="icon justify-content-center align-items-center d-flex"><span
-                                        class="flaticon-pin ic"></span></div>
+                                <div class="icon justify-content-center align-items-center d-flex"><FaBeer /></div>
                                 <div class="media-body">
                                     <h3 class="heading mb-3">Find Places Anywhere in the World</h3>
                                     <p>A small river named Duden flows by their place and supplies it with the necessary
@@ -155,7 +155,10 @@ class Home extends Component {
                     size: 100%;\
                 }\
                 .item{\
-                    margin: 5px;\
+                    margin: 15px;\
+                }\
+                img{\
+                    border-radius: 8px;\
                 }\
             "}</style>
         </div>

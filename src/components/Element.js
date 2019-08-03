@@ -27,9 +27,13 @@ class Element extends Component {
                 <style>{"\
                     .item{\
                         width: 350px;\
+                        margin: 15px;\
                     }\
                     h3{\
                         text-align: left;\
+                    }\
+                    img{\
+                        border-radius: 8px;\
                     }\
                 "}</style>
 
