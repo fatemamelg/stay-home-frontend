@@ -16,12 +16,12 @@ class Header extends Component {
                             <div class="col-lg-12 d-block">
                                 <div class="row">
                                     <div class="col-md pr-4 d-flex topper align-items-center">
-                                        <div class="icon mr-2 d-flex justify-content-left align-items-center"><span
+                                        <div class="icon mr-2 d-flex justify-content align-items-center"><span
                                             class="icon-phone2"></span></div>
                                         <span class="text">+ 1235 2355 98</span>
                                     </div>
                                     <div class="col-md pr-4 d-flex topper align-items-center">
-                                        <div class="icon mr-2 d-flex justify-content-left align-items-center"><span
+                                        <div class="icon mr-2 d-flex justify-content align-items-center"><span
                                             class="icon-paper-plane"></span></div>
                                         <span class="text">youremail@email.com</span>
                                     </div>
@@ -41,7 +41,7 @@ class Header extends Component {
                     <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                         <Nav className="ml-auto ">
                             <Nav.Link><Link to="/" className="nav-link">Home</Link></Nav.Link>
-                            <Nav.Link><Link to="/nameform" className="nav-link">Services</Link></Nav.Link>
+                            <Nav.Link><Link to="/" className="nav-link">Services</Link></Nav.Link>
                             <Nav.Link><Link to="/" className="nav-link">Listing</Link></Nav.Link>
                             <Nav.Link><Link to="/" className="nav-link">How it works</Link></Nav.Link>
                         </Nav>
