@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Element from './Element'
 
 class Home extends Component {
     render() {
@@ -91,8 +92,10 @@ class Home extends Component {
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12">
-                    </div>
+                        <Element class="item"/>
+                        <Element />
+                        <Element />
+                    
                 </div>
             </div>
 
@@ -144,15 +147,18 @@ class Home extends Component {
 
 
 
-                <style>{"\
-                    .homey{\
-                        background-image: url('images/bg_2.jpg');\
-                    }\
-                    .ic{\
-                        size: 100%;\
-                    }\
-                "}</style>
-            </div>
+            <style>{"\
+                .homey{\
+                    background-image: url('images/bg_2.jpg');\
+                }\
+                .ic{\
+                    size: 100%;\
+                }\
+                .item{\
+                    margin: 5px;\
+                }\
+            "}</style>
+        </div>
         )
     }
 }
