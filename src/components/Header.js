@@ -26,7 +26,7 @@ class Header extends Component {
                                         <span class="text">youremail@email.com</span>
                                     </div>
                                     <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
-                                        <p class="mb-0 register-link"><a href="sign-up.html" class="mr-3">Sign Up</a><a href="sign-in.html">Sign In</a>
+                                        <p class="mb-0 register-link"><Link to="signin" class="mr-3">Sign In</Link><Link to="signup">Sign Up</Link>
                                         </p>
                                     </div>
                                 </div>
