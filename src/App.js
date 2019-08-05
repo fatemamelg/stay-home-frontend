@@ -17,13 +17,6 @@ function App() {
       <div className="App">
         <Header />
         
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/signin" component={SignIn} />
-          <Route path="/signup" component={SignUp} />
-          <Route path="/properties" component={Properties} />
-        </Switch>
-
         <Footer />
       </div>
     </Router>

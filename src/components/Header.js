@@ -4,9 +4,14 @@ import { BrowserRouter as Router, Route, Link, Redirect, NavLink } from 'react-r
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Home from './Home'
+import SignIn from './SignIn'
+import SignUp from './SignUp'
+import Properties from './Properties'
+
 
 class Header extends Component {
-    
+
     render() {
         return (
             <Router>
@@ -48,6 +53,11 @@ class Header extends Component {
 
                     </Navbar.Collapse>
                 </Navbar>
+
+                <Route path="/" exact render={() => <Home />} />
+                <Route path="/signin" render={() => <SignIn />} />
+                <Route path="/signup" render={() => <SignUp />} />
+                <Route path="/properties" render={() => <Properties />} />
 
 
                 <style>{"\
