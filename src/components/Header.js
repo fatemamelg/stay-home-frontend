@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import { BrowserRouter as Router, Route, Link, Redirect, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -46,9 +47,9 @@ class Header extends Component {
                     <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                         <Nav className="ml-auto ">
                             <Nav.Link><Link to="/" className="nav-link">Home</Link></Nav.Link>
-                            <Nav.Link><Link to="/" className="nav-link">Services</Link></Nav.Link>
+                            <Nav.Link><HashLink smooth to="/#services-section" className="nav-link">Services</HashLink></Nav.Link>
                             <Nav.Link><Link to="properties" className="nav-link">Listing</Link></Nav.Link>
-                            <Nav.Link><Link to="/#how-it-works" className="nav-link">How it works</Link></Nav.Link>
+                            <Nav.Link><HashLink smooth to="/#how-it-works" className="nav-link">How it works</HashLink></Nav.Link>
                         </Nav>
 
                     </Navbar.Collapse>

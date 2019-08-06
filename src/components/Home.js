@@ -56,7 +56,7 @@ class Home extends Component {
                     </Carousel.Item>
                 </Carousel>
 
-                <div class="" id="services-section">
+                <div id="services-section">
                     <div class="container">
                         <div class="row justify-content-center ">
                             <div class="col-md-12">
